@@ -1,1 +1,4 @@
-puts"hi"
+#!/usr/bin/env ruby
+require_relative'../lib/all_time_cli/cli'
+
+CLI.new.start
